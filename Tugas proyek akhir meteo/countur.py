@@ -40,8 +40,8 @@ plt.figure(figsize=(20, 8))
 plt.pcolormesh(grid_x, grid_y, grid_tavg, shading='auto', cmap='coolwarm')
 plt.colorbar(label='Temperature (°C)')
 plt.gca().set_aspect('equal', adjustable='box')
-
 plt.title(f'Temperature Distribution on {date}')
 plt.xlabel('Longitude')
 plt.ylabel('Latitude')
 plt.show()
+

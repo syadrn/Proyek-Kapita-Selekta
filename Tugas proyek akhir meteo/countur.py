@@ -44,3 +44,4 @@ plt.title(f'Temperature Distribution on {date}')
 plt.xlabel('Longitude')
 plt.ylabel('Latitude')
 plt.show()
+
